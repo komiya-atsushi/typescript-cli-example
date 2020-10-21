@@ -2,7 +2,11 @@
   "name": "typescript-cli-example",
   "version": "1.0.0",
   "description": "Minimal example of the CLI app written in TypeScript.",
+  "bin": {
+    "typescript-cli-example": "./bin/typescript-cli-example"
+  },
   "scripts": {
+    "prepare": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",

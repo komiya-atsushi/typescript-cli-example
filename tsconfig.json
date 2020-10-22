@@ -2,9 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "esnext",
-    "strict": true,
-    "types": [
-      "@types/node"
-    ]
+    "strict": true
   }
 }
